@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node-dev --respawn",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/lightrule/typescript-for-javascript-developers/issues"
   },
-  "homepage": "https://github.com/lightrule/typescript-for-javascript-developers#readme"
+  "homepage": "https://github.com/lightrule/typescript-for-javascript-developers#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8"
+  }
 }
